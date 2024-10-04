@@ -1,6 +1,7 @@
 import React from 'react';
 
 {/* Content Function*/}
+{/* Using seprated components,it separates concerns and makes the app modular*/}
 const Content = () => {
   return (
     <div>

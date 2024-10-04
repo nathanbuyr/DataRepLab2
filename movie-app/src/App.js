@@ -14,7 +14,8 @@ function App() {
       {/* Calling the navbar */}
       <NavigationBar />
       <Routes>
-        {/*Each route has a path that redirects to a different page when clicked */};
+        {/*Each route has a path that redirects to a different page when clicked, */};
+        {/*Client side routing allows the app to update the url without making another request to the server */}
         <Route path="/" element={<Content />} />
         <Route path="/read" element={<Footer />} />
         <Route path="/create" element={<Header />} />

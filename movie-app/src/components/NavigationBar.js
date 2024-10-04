@@ -8,7 +8,7 @@ const NavigationBar = () => {
     //Changed background colour to primary
         <Navbar bg="primary" data-bs-theme="dark">
           <Container>
-            {/*hrefs contain the path to redirect to */}
+            {/*Nav.Link hrefs contain the path to redirect to */}
             <Navbar.Brand href="/">Navbar</Navbar.Brand>
             <Nav className="me-auto">
               <Nav.Link href="/">Home</Nav.Link>
