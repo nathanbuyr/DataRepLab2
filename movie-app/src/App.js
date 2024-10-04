@@ -1,13 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+//Wrapped up imports
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import NavigationBar from './components/NavigationBar';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Content from './components/Content';
-{/* Imports from excercise 5 to use in this file*/}
+{/* Imports from excercise 5 to use in this file*/ }
 
-{/*App function that holds everything */}
+{/*App function that holds everything */ }
 function App() {
   return (
     <Router>
